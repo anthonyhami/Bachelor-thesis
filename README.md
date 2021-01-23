@@ -1,7 +1,9 @@
 # Bachelor-thesis
 
-MNIST_1D_modifiziert_Conv1D_tumor2021.py
+1.Code:MNIST_1D_modifiziert_Conv1D_tumor2021.py
 -> GAN implementation to generate random methylation data
 
-AC_GAN.py
--> AC GAN for MNIST Fashion Pictures
+2.Code:AC_GAN.py
+-> AC GAN for class aware  MNIST Fashion data
+
+
