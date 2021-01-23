@@ -5,5 +5,7 @@
 
 2.Code:AC_GAN.py
 -> AC GAN for class aware  MNIST Fashion data
+-> Link source: https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/
+
 
 
