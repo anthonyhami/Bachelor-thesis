@@ -10,7 +10,7 @@
 
 3.Code:AC_GAN_1D_MNIST.py
 -> AC GAN for class aware MNIST Fashion Data   
-->1D MNIST Data to Conv1D
+->1D MNIST Data on Conv1D
 ->Link source: https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/
 
 
