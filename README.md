@@ -14,4 +14,4 @@
 ->Link source: https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/
 
 
-
+Please ignore the files : AC_Plot and .DS_Store
