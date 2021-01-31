@@ -8,20 +8,20 @@
 -> Use Model from MNIST_1D_modifiziert_Conv1D_tumor2021.py
 -> generated random methylation data
 
-2.Code:AC_GAN.py (2D)
+3.Code:AC_GAN.py (2D)
 -> AC GAN for class aware  MNIST Fashion data(2D)
 -> Link source: https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/
 
-3.Code:USEMODELAC.py (2D)
+4.Code:USEMODELAC.py (2D)
 -> Use final model to generate class aware MNIST Fashion data(2D)
 -> Link source: https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/
 
-4.Code:AC_GAN_1D_MNIST.py
+5.Code:AC_GAN_1D_MNIST.py
 -> AC GAN for class aware MNIST Fashion Data(1D)  
 ->1D MNIST Data on Conv1D
 ->Link source: https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/
 
-5.Code: USEMODELAC_1D.py (1D)
+6.Code: USEMODELAC_1D.py (1D)
 -> Use final model to generate class aware MNIST Fashion data(1D)
 
 
