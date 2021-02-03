@@ -24,6 +24,12 @@
 6.Code: USEMODELAC_1D.py (1D)
 -> Use final model to generate class aware MNIST Fashion data(1D)
 
+7.Code: AC_GAN_Tumor_1D.py
+-> AC-GAN implementation to generated class aware methylation data
+
+8.Code USEMODELAC_Tumor_1D.py
+-> Use final model to generated class aware methylation data
+
 
 Please ignore the files : AC_Plot and .DS_Store
 
