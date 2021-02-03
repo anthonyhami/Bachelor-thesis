@@ -23,12 +23,15 @@
 
 6.Code: USEMODELAC_1D.py (1D)
 -> Use final model to generate class aware MNIST Fashion data(1D)
+->Link source: https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/
 
 7.Code: AC_GAN_Tumor_1D.py
 -> AC-GAN implementation to generated class aware methylation data
+-> Link source: https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/
 
 8.Code USEMODELAC_Tumor_1D.py
 -> Use final model to generated class aware methylation data
+-> Link source: https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/
 
 
 Please ignore the files : AC_Plot and .DS_Store
