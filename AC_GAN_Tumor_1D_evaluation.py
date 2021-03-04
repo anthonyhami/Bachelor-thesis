@@ -148,7 +148,7 @@ def define_generator(latent_dim, n_classes=91):
     gen = Activation('relu')(gen)
     # upsample to 28x28
     gen = Conv1DTranspose(1, 4*1, strides=2*1, padding='same', kernel_initializer=init)(gen)
-    out_layer = Activation('tanh')(gen)
+    out_layer = Activation('sigmoid')(gen)
     # define model
     model = Model([in_lat, in_label], out_layer)
     return model
@@ -274,18 +274,18 @@ def generate_fake_samples(generator, latent_dim, n_samples):
 # generate samples and save as a plot and save the model
 def summarize_performance(step, g_model, d_model, dataset, latent_dim, n_samples=100):
     # prepare real samples
-    [X_real, _], y_real = generate_real_samples(dataset, n_samples)
+    [X_real,labels_real], y_real = generate_real_samples(dataset, n_samples)
     # evaluate discriminator on real examples
     #_, acc_real = d_model.evaluate(X_real, y_real, verbose=0)
     #loss_real, accuracy_real, f1_score_real, precision_real, recall_real = d_model.evaluate(X_real, y_real, verbose=0)
-    _,d_r,d_r2, acc_r, f1_r, prec_r, recall_r, _,_,_,_ = d_model.evaluate(X_real, y_real, verbose=0)
+    _,d_r,d_r2, acc_r, f1_r, prec_r, recall_r, _,_,_,_ = d_model.evaluate(X_real,[ y_real,labels_real], verbose=0)
 
     # prepare fake examples
-    [x_fake, _], y_fake = generate_fake_samples(g_model, latent_dim, n_samples)
+    [x_fake,labels_fake], y_fake = generate_fake_samples(g_model, latent_dim, n_samples)
     # evaluate discriminator on fake examples
     #_, acc_fake = d_model.evaluate(x_fake, y_fake, verbose=0)
     #loss_fake, accuracy_fake, f1_score_fake, precision_fake, recall_fake = d_model.evaluate(x_fake, y_fake, verbose=0)
-    _,d_f,d_f2, acc_f, f1_f, prec_f, recall_f, _,_,_,_ = d_model.evaluate(x_fake, y_fake, verbose=0)
+    _,d_f,d_f2, acc_f, f1_f, prec_f, recall_f, _,_,_,_ = d_model.evaluate(x_fake,[ y_fake,labels_fake],verbose=0)
 
     print ("\n\n\n")
     print ("step ===================", step)
@@ -316,13 +316,13 @@ def summarize_performance(step, g_model, d_model, dataset, latent_dim, n_samples
     print("X.shape==",X.shape)
     """
     # save the generator model
-    filename2 = 'AC_Model_Tumor/model_%04d.h5' % (step+1)
+    filename2 = 'AC_Model_Tumor_evaluation_sigmoid/model_%04d.h5' % (step+1)
     g_model.save(filename2)
     print('>Saved: %s' % (filename2))#(filename1,filename2)
 
 
 # train the generator and discriminator
-def train(g_model, d_model, gan_model, dataset, latent_dim, n_epochs=100, n_batch=64):
+def train(g_model, d_model, gan_model, dataset, latent_dim, n_epochs=500, n_batch=64):
     # calculate the number of batches per training epoch
     bat_per_epo = int(dataset[0].shape[0] / n_batch)
     # calculate the number of training iterations
