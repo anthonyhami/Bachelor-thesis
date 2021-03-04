@@ -2,11 +2,19 @@
 1.Normal GAN with methylation data:
 
 1.1Code:MNIST_1D_modifiziert_Conv1D_tumor2021.py
+
+
 -> GAN implementation to generate random methylation data
+
+
 -> Link source: https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-an-mnist-handwritten-digits-from-scratch-in-keras/
 
 1.2.Code: USEMODEL.py
+
+
 -> Use Model from MNIST_1D_modifiziert_Conv1D_tumor2021.py
+
+
 -> generated random methylation data
 ____________________________________________________________________________________
 2. AC-GAN with 2D MNIST Data
