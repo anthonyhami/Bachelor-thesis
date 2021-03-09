@@ -79,7 +79,7 @@ ________________________________________________________________________________
 4.3 Code USEMODELAC_Tumor_1D_more_sample.py
 
 
--> Use final Mode to generated class aware methylation data( more then one sample)
+-> Use final Model to generated class aware methylation data( more then one sample)
 
 _____________________________________________________________________________________
 
@@ -104,6 +104,11 @@ ________________________________________________________________________________
 
 
 -> Evaluation Generator with centroid for more sample automatic
+
+5.5 Code: USEMODELAC_Tumor_1D_more_automatisch.py
+
+
+-> Use final Mode to generated class aware methylation data( more then one sample) automatic
 
 
 
