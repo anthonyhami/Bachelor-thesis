@@ -100,6 +100,11 @@ ________________________________________________________________________________
 
 -> Evaluating Generator with centroids for more samples
 
+5.4 Code: PCA_plot_automate.py
+
+
+-> Evaluation Generator with centroid for more sample automatic
+
 
 
 
