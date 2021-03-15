@@ -110,6 +110,12 @@ ________________________________________________________________________________
 
 -> Use final Mode to generated class aware methylation data( more then one sample) automatic
 
+5.6 Code: PCA_KNN_centroid_new_plot_automate.py
+
+-> AKTUEL : Evaluating Generator with centroids for more samples
+
+-> the number of classes which have a centroid closer than the generated class centroid 
+
 
 
 
