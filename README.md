@@ -119,22 +119,24 @@ ________________________________________________________________________________
 _______________________________________________________________________________________
 
 6. Wasserstein GAN:
-6.1-> 
+6.1-> AC_GAN_Tumor_1D_evaluation_976_wasserstein.py
+
+-> AC GAN with Wasserstein loss to overcome  Mode Collapse
 
 
 ________________________________________________________________________________________
 
 
-7. Current Used Code
+7. Current Using Code:
 
-7.1AC-GAN:
+7.1AC-GAN:AC_GAN_Tumor_1D_evaluation_976_plot_new.py
 
-7.2USEMODEL:
+-> with plotting ,Families and
 
-7.3Evaluation
+7.2Evaluation: PCA_KNN_centroid_new_plot_automate_976_familie_overfit.py
+-> Evaluation Generator+ Mode Collaps 
 
--> Evaluation Generator+ Mode Collaps
-
+7.3 Usemodel: Same code like on 5.5
 
 
 
