@@ -116,6 +116,25 @@ ________________________________________________________________________________
 
 -> the number of classes which have a centroid closer than the generated class centroid 
 
+_______________________________________________________________________________________
+
+6. Wasserstein GAN:
+6.1-> 
+
+
+________________________________________________________________________________________
+
+
+7. Current Used Code
+
+7.1AC-GAN:
+
+7.2USEMODEL:
+
+7.3Evaluation
+
+-> Evaluation Generator+ Mode Collaps
+
 
 
 
