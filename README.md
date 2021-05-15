@@ -134,7 +134,36 @@ ________________________________________________________________________________
 
 -> with plotting ,Families and
 
+-> Data to have:
+
+-> Dx_families_with_num.csv
+or
+-> Dx_with_num.csv
+
+-> betaValues.h5
+
+-> cg_all_position_sorted_new.csv
+
+
+
 7.2Evaluation: PCA_KNN_centroid_new_plot_automate_976_familie_overfit.py
+
+Step1: create PCA_all file
+
+Stept2: create PCA_centroids file
+
+Stept 3: put all Data in same file:  
+
+-> betaValues.h5
+
+-> cg_all_position_sorted_new.csv
+
+-> Dx_Families_new.csv
+  
+  or
+  
+-> Dx.csv  (Subfamilies)
+
 
 
 -> Evaluation Generator+ Mode Collaps 
