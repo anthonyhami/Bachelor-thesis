@@ -146,10 +146,8 @@ ________________________________________________________________________________
 
 -> Stop Training when loss went down
 
-7.5 hyperparameter optimization: - AC_GAN_TUNE_final_new.py,various_models_new.py
-                                
-                                  - various_models_new.py
-
+7.5 hyperparameter optimization: - AC_GAN_TUNE_final_new.py,various_models_new ,various_models_new.py
+                                  
 
 ->  HP for Batch, Layers and Nodes
 
