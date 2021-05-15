@@ -141,6 +141,19 @@ ________________________________________________________________________________
 
 7.3 Usemodel: Same code like on 5.5
 
+7.4 Early Stopping 1.1: AC_GAN_Tumor_1D_manuelnew_callback.py 
+
+
+-> Stop Training when loss went down
+
+7.5 hyperparameter optimization: - AC_GAN_TUNE_final_new.py,various_models_new.py
+                                
+                                  - various_models_new.py
+
+
+->  HP for Batch, Layers and Nodes
+
+
 
 
 
