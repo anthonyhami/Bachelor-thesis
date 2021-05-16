@@ -181,6 +181,9 @@ Stept 3: put all Data in same file:
 ->  HP for Batch, Layers and Nodes
 
 
+7.6  average methylation density profile: hist.py
+
+
 
 
 
