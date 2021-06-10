@@ -215,6 +215,8 @@ ________________________________________________________________________________
 
 -> create for each experiment  plot and csv file 
 
+-> need this code: GPU.sh
+
 8.4  histo_automatic.py
 
 -> create for each experiment the methylation profile
