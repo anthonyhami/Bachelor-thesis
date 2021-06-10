@@ -184,6 +184,45 @@ Stept 3: put all Data in same file:
 7.6  average methylation density profile: hist.py
 
 
+8. Hyperparameter optimasation
+
+
+
+8.1 AC_GAN_2_0_HP_tune_final.py
+
+
+-> add max 3 layers
+
+-> generate automatic 36 models
+
+-> need this code : various_models_2_0_tune.py
+
+-> different combinations
+
+
+8.2 USEMODELAC_HP.py
+
+
+->Generate for each Model 10x39 cancer samples
+
+-> for each experiment
+
+-> need this code: evaluation_pcr.py
+
+8.3 PCA_HP_new.py
+
+-> evaluate the generated cancertypes for each model
+
+-> create for each experiment  plot and csv file 
+
+8.4  histo_automatic.py
+
+-> create for each experiment the methylation profile
+
+
+
+
+
 
 
 
