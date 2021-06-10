@@ -182,7 +182,7 @@ Stept 3: put all Data in same file:
 
 
 7.6  average methylation density profile: hist.py
-
+_________________________________________________________________________________________________________________________________________________________________
 
 8. Hyperparameter optimasation
 
